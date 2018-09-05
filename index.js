@@ -18,7 +18,7 @@ function produceDrivingRange(blockRange) {
 
 function produceTipCalculator(fare) {
   return function(percent) {
-    
+    return fare*percent
   }
   
   
