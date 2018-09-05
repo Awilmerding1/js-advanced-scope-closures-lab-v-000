@@ -3,9 +3,9 @@ function produceDrivingRange(blockRange) {
     let a = parseInt(start) 
     let b = parseInt(end)
     if (a > b) {
-      let trip = a - b
+      const trip = a - b
     } else {
-      let trip = b - a
+      const trip = b - a
     }
     if (trip > blockRange) {
       return `${trip} blocks out of range`
