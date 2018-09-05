@@ -11,7 +11,7 @@ function produceDrivingRange(blockRange) {
     if (trip > blockRange) {
       return `${trip-blockRange} blocks out of range`
     } else {
-      return `within range by ${trip}`
+      return `within range by ${blockRange - trip}`
     }
   }
 }
