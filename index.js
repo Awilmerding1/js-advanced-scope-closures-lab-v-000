@@ -25,6 +25,7 @@ function produceTipCalculator(fare) {
   	let DriverId = 0;
     return class  {
       
+      constructor
       
     }
     
