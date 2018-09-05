@@ -23,7 +23,7 @@ function produceTipCalculator(fare) {
   
   function createDriver() {
     
-    class Driver {
+    return class Driver {
       
       
       
