@@ -1,6 +1,6 @@
 function produceDrivingRange(blockRange) {
   return function(start, end){
-    let a = parseInt(start, 10) 
+    let a = parseInt(start) 
     let b = parseInt(end, 10)
     let trip;
     if (a > b) {
