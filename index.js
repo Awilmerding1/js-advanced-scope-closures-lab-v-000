@@ -14,4 +14,5 @@ function produceDrivingRange(blockRange) {
       return `within range by ${trip}`
     }
   }
+  return a
 }
