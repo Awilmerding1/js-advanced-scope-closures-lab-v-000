@@ -1,4 +1,5 @@
 function produceDrivingRange(blockRange) {
+  let trip;
   return function(start, end){
     if (start > end) {
       let trip = start - end
