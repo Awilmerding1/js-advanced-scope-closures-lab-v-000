@@ -8,7 +8,6 @@ function produceDrivingRange(blockRange) {
     } else {
       let trip = a - b
     }
-    return b
     if (trip > blockRange) {
       return `${trip} blocks out of range`
     } else {
