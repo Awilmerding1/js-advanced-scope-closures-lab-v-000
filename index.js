@@ -25,6 +25,8 @@ function produceTipCalculator(fare) {
     
     class Driver {
       
+      
+      
     }
     
   }
