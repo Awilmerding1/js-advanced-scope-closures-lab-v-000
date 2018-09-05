@@ -21,7 +21,7 @@ function produceTipCalculator(fare) {
     return fare*percent
   }
   
-  function createDriver() {
+function createDriver() {
   	let DriverId = 0;
     return class  {
       constructor(name) {
