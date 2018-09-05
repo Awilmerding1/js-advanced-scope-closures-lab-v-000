@@ -29,7 +29,7 @@ function produceTipCalculator(fare) {
         this.name = name
       }
     }
-    let Driver = 
+    const Driver = createDriver()
   }
   
   
