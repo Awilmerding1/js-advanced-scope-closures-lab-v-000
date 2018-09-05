@@ -29,9 +29,9 @@ function produceTipCalculator(fare) {
         this.name = name
       }
     }
-    const Driver = createDriver()
   }
-  
+      const Driver = createDriver()
+
   
 }
 
