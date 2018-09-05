@@ -24,12 +24,10 @@ function produceTipCalculator(fare) {
   function createDriver() {
   	let DriverId = 0;
     return class  {
-      
       constructor(name) {
         this.id = ++ DriverId
         this.name = name
       }
-      
     }
     
   }
