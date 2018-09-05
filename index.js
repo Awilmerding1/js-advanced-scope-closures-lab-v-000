@@ -1,6 +1,4 @@
 function produceDrivingRange(blockRange) {
-  let a = Number.parseInt(this.beginningLocation['vertical'], 10) 
-  let b = Number.parseInt(this.endingLocation['vertical'], 10)
   return function(start, end){
     if (start > end) {
       let trip = start - end
