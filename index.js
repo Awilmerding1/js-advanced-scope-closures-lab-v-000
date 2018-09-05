@@ -9,7 +9,7 @@ function produceDrivingRange(blockRange) {
        trip = a - b
     }
     if (trip > blockRange) {
-      return `${trip} blocks out of range`
+      return `${trip-blockRange} blocks out of range`
     } else {
       return `within range by ${trip}`
     }
