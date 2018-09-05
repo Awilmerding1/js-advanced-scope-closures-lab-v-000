@@ -26,7 +26,7 @@ function produceTipCalculator(fare) {
     return class  {
       
       constructor() {
-        
+        this.id = ++ DriverId
       }
       
     }
