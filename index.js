@@ -33,7 +33,7 @@ function produceTipCalculator(fare) {
   
 }
 
-    const Driver = createDriver()
+const Driver = createDriver()
 
 
 
