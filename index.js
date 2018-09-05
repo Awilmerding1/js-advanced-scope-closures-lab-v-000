@@ -25,8 +25,9 @@ function produceTipCalculator(fare) {
   	let DriverId = 0;
     return class  {
       
-      constructor() {
+      constructor(name) {
         this.id = ++ DriverId
+        this.name = name
       }
       
     }
